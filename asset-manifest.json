@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81b60816.chunk.css",
+    "main.js": "/static/js/main.f74f2357.chunk.js",
+    "main.js.map": "/static/js/main.f74f2357.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ce9299b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ce9299b5.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.8f9c4004.chunk.js": "/static/js/2.8f9c4004.chunk.js",
+    "static/js/2.8f9c4004.chunk.js.map": "/static/js/2.8f9c4004.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.749bb071bf137802f6aed557d451f810.js": "/precache-manifest.749bb071bf137802f6aed557d451f810.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.81b60816.chunk.css.map": "/static/css/main.81b60816.chunk.css.map",
+    "static/js/2.8f9c4004.chunk.js.LICENSE.txt": "/static/js/2.8f9c4004.chunk.js.LICENSE.txt",
+    "static/media/colgate-logo-1.png": "/static/media/colgate-logo-1.86500e69.png",
+    "static/media/me-photo.jpg": "/static/media/me-photo.69b5065d.jpg",
+    "static/media/ucsd-logo.png": "/static/media/ucsd-logo.b619b951.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce9299b5.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.8f9c4004.chunk.js",
+    "static/css/main.81b60816.chunk.css",
+    "static/js/main.f74f2357.chunk.js"
+  ]
+}
