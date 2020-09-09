@@ -29,7 +29,12 @@ class Blurb extends React.Component {
         return (
             <div style={styles.blurb}>
                 <h3>About Me</h3>
-                <p>I am a PhD student at UC San Diego. </p>
+                <p>I am a PhD student at UC San Diego. My interests include:</p>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Software Engineering</li>
+                    <li>Data Visualization</li>
+                </ul>
             </div>
         );
     }
