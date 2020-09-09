@@ -10,7 +10,7 @@ export default class MyNav extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/datasets">Datasets</Nav.Link>
+                        <Nav.Link href="/publications">Publications</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

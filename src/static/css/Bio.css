@@ -1,0 +1,12 @@
+.Bio {
+  color: #282c34;
+  padding: 30px;
+}
+
+.Bio p {
+  margin-bottom: 0;
+}
+
+.Bio li {
+  margin-top: 10px;
+}

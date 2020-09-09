@@ -1,0 +1,17 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons {
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.icons li {
+    padding: 5px;
+    float: left;
+}
