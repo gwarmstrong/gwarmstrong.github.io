@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 
 export default class Citation extends React.Component {
     render() {
@@ -9,10 +10,12 @@ export default class Citation extends React.Component {
         const journal = citation.journal
         const date = citation.date
         return (
-            <li>
-                <b>{title}</b>
-                <p>{authors}. <em>{journal}</em> ({date}) | <a href={link}>Link</a></p>
-            </li>
+            <Card className="shadow p-3 mt-3">
+                <div>
+                    <b>{title}</b>
+                    <p>{authors}. <em>{journal}</em> ({date}) | <a href={link}>Link</a></p>
+                </div>
+            </Card>
         );
     }
 }

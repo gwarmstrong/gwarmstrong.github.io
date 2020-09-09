@@ -9,7 +9,7 @@ const paperData = [
         link: "https://doi.org/10.1038/s41587-020-0660-7",
         journal: "Nature Biotechnology",
         date: 2020,
-    }
+    },
 ]
 
 export default paperData;

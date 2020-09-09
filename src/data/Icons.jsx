@@ -8,7 +8,7 @@ const iconData = [
         icon: faGithub
     },
     {
-        link: 'mailto:garmstrong@ucsd.edu',
+        link: 'https://linkedin.com/in/gwarmstrong',
         icon: faLinkedinIn
     }
 ]
