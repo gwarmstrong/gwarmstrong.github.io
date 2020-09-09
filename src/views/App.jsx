@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, HashRouter as Router } from 'react-router-dom';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import { Container, Col, Row } from 'react-bootstrap';
 import Landing from "./Landing";
 import Publications from "./Publications";
@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default class App extends React.Component {
     render() {
         return (
-            <Router basename={"/"}>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <MyNav />
                     <Container fluid>

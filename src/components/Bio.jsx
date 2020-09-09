@@ -32,8 +32,8 @@ class Blurb extends React.Component {
                 <p>I am a PhD student at UC San Diego. My interests include:</p>
                 <ul>
                     <li>Machine Learning</li>
-                    <li>Software Engineering</li>
                     <li>Data Visualization</li>
+                    <li>Phylogenetic Algorithms</li>
                 </ul>
             </div>
         );
