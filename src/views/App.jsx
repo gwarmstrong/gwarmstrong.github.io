@@ -22,8 +22,8 @@ export default class App extends React.Component {
                             </Col>
                             <Col sm={8}>
                                 <Switch>
-                                    <Route component={Landing} exact path="/" />
-                                    <Route component={Publications} exact path="/publications" />
+                                    <Route component={Landing} exact path={process.env.PUBLIC_URL + "/"} />
+                                    <Route component={Publications} exact path={process.env.PUBLIC_URL + "/publications"} />
                                 </Switch>
                             </Col>
                         </Row>

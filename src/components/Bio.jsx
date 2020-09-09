@@ -18,6 +18,20 @@ const styles = {
     cardText: {
         alignItems: 'center',
         display: 'block',
+    },
+    blurb: {
+        paddingTop: '30px',
+    }
+}
+
+class Blurb extends React.Component {
+    render() {
+        return (
+            <div style={styles.blurb}>
+                <h3>About Me</h3>
+                <p>I am a PhD student at UC San Diego. </p>
+            </div>
+        );
     }
 }
 
@@ -64,7 +78,10 @@ class Education extends React.Component {
 export default class Bio extends React.Component {
     render() {
         return (
-            <Education />
+            <div>
+                <Blurb />
+                <Education />
+            </div>
         );
     }
 }
